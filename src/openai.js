@@ -42,11 +42,3 @@ class OpenAI {
 }
 
 export const openai = new OpenAI(config.get('OPENAI_KEY'))
-
-// const response2 = await this.openai.createImage({
-//     prompt: "a white siamese cat",
-//     n: 1,
-//     size: "1024x1024",
-// });
-// const image_url = response2.data.data[0].url;
-// console.log(image_url)
